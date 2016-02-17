@@ -36,10 +36,10 @@ extra10:setFillColor(.25)
 local extra11 = display.newText("YL", 0, 0, "mono.ttf", 36)
 extra11:setFillColor(.25)
 
-local extra12 = display.newText("J", 0, 0, "mono.ttf", 36);
+local extra12 = display.newText("J", 0, 0, "mono.ttf", 36)
 extra12:setFillColor(.25)
 
-local extra13 = display.newText("X", 0, 0, "mono.ttf", 36);
+local extra13 = display.newText("X", 0, 0, "mono.ttf", 36)
 extra13:setFillColor(.25)
 
 -- initializes top text variables
@@ -283,7 +283,7 @@ function position()
 	elevenNum.x = tenNum.x + tenNum.width / 2 + elevenNum.width / 2
 	extra9.x = elevenNum.x + elevenNum.width / 2 + extra9.width / 2
 
-	--line 9
+	-- line 9
 	twelveNum.x = it.x - it.width / 2 + twelveNum.width / 2
 	extra10.x = twelveNum.x + twelveNum.width / 2 + extra10.width / 2
 	oclock.x = extra10.x + extra10.width / 2 + oclock.width / 2
